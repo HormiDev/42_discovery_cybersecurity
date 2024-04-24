@@ -1,1 +1,6 @@
-c967d488512ab5559b446f97843de1be0d615088:liamup2u
+hacking
+
+flag.txt = c967d488512ab5559b446f97843de1be0d615088
+
+./john --wordlist=wordlist.lst flag.txt
+/john --wordlist=wordlist.lst --format=has-160 flag.txt
